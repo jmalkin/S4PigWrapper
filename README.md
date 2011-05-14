@@ -3,11 +3,19 @@ Pig Wrapper for S4 PEs
 
 Introduction
 ------------
-This is a component for S4 that will work with the Pig Latin language
-running on a Hadoop distributed filesystem.  For more information on
-S4, see [s4.io](http://s4.io).  For more information on Pig, see
-[pig.apache.org](http://pig.aparche.org) and for Hadoop, see
-[hadoop.apache.org](http://hadoop.apache.org)
+
+S4PigWrapper wraps your S4 processing elements (PEs) so that they can
+run offline on a Hadoop cluster.  Specifically, this wrapper allows
+PEs to be treated as user-defined functions (UDFs) in Pig scripts, Pig
+Latin works as a glue language, allowing one to specify how messages
+flow between different PEs.
+
+For more information on S4, see [s4.io](http://s4.io).  For more
+information on Pig, see [pig.apache.org](http://pig.aparche.org) and
+for Hadoop, see [hadoop.apache.org](http://hadoop.apache.org)
+
+See [S4PigExample](github.com/jmalkin/S4PigExample) for an example of
+how this wrapper can be used.
 
 Requirements
 ------------
