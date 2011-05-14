@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<assembly>
+  <id />
+
+  <formats>
+    <format>dir</format>
+    <format>tar.gz</format>
+  </formats>
+
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <baseDirectory>${artifactId}</baseDirectory>
+
+  <dependencySets>
+    <dependencySet>
+      <unpack>false</unpack>
+      <outputDirectory>lib</outputDirectory>
+      <scope>runtime</scope>
+      <useProjectArtifact>true</useProjectArtifact>
+      <includes>
+	<include>${groupId}:${artifactId}</include>
+	<include>io.s4:s4-core</include>
+	<include>org.springframework:spring</include>
+	<include>com.esotericsoftware:kryo</include>
+	<include>org.apache.bcel:bcel</include>
+	<include>com.esotericsoftware:minlog</include>
+      </includes>
+    </dependencySet>
+  </dependencySets> 
+
+</assembly>
