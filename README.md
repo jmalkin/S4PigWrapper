@@ -14,7 +14,7 @@ For more information on S4, see [s4.io](http://s4.io).  For more
 information on Pig, see [pig.apache.org](http://pig.aparche.org) and
 for Hadoop, see [hadoop.apache.org](http://hadoop.apache.org)
 
-See [S4PigExample](github.com/jmalkin/S4PigExample) for an example of
+See [S4PigExample](https://github.com/jmalkin/S4PigExample) for an example of
 how this wrapper can be used.
 
 Requirements
